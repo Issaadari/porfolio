@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - ADARI Issa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <span class="logo"> ADARI Issa</span>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section-about">
+        <div class="intro-text">
+            <h1>Je suis Issa, Développeur en devenir passionné par le web et le design!</h1>
+            <p>Je m'appelle Issa, passionné par la création de sites web modernes et interactifs. 
+                Je suis actuellement étudiant(e) en développement web, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS. 
+                J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+            <a href="#" class="btn-download-cv">Télécharger mon CV</a>
+        </div>
+        <div class="profile-image">
+            <img src="ma-photo.jpg" alt="Photo de profil">
+        </div>
+    </section>
+
+    <section id="projets" class="section-projets">
+        <h2>Mes Projets</h2>
+        <div class="projets-container">
+            <div class="projet-item">
+                <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <span class="tags">#html, #css, #js</span>
+                <a href="#" class="btn-voir">Voir</a>
+            </div>
+            <div class="projet-item">
+                <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <span class="tags">#html, #css, #js</span>
+                <a href="#" class="btn-voir">Voir</a>
+            </div>
+            <div class="projet-item">
+                <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                <span class="tags">#html, #css, #js</span>
+                <a href="#" class="btn-voir">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="section-competences">
+        <h2>Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="hard-skills">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Gestion de projet</li>
+                    <li>Résolution de problème</li>
+                    <li>Adaptabilité</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <h2>Vous avez un projet en tête ? N'hésitez pas à me contacter</h2>
+        <form id="contact-form">
+            <div class="form-row">
+                <input type="text" id="prenom" placeholder="Votre prénom" required>
+                <input type="text" id="nom" placeholder="Votre nom" required>
+            </div>
+            <input type="text" id="sujet" placeholder="Votre sujet" required>
+            <textarea id="message" placeholder="Votre message" rows="6" required></textarea>
+            <button type="submit" class="btn-envoyer">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Designed by Issa with HTML, CSS, JS</p>
+            <p>Tous droits réservés - 2025</p>
+        </div>
+    </footer>
+
+    <script src="form.js"></script>
+</body>
+</html>
